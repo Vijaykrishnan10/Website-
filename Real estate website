@@ -10,7 +10,7 @@ const properties = [
     images: [
       "land1.jpg",
       "land2.jpg",
-      "land3.jpeg"
+      "land3.jpg"
     ],
     map: "https://maps.google.com/?q=Thekkalur"
   }
