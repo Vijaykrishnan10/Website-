@@ -1,62 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Real Estate</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #222;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-    header {
-      background: #004080;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    main {
-      padding: 1rem;
-    }
-    footer {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-    a {
-      color: #004080;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Real Estate</h1>
-  </header>
-
-  <main>
-    <h2>Welcome</h2>
-    <p>
-      Explore the best real estate opportunities tailored to your needs. 
-      Our goal is to connect you with the perfect property.
-    </p>
-
-    <h2>Contact</h2>
-    <p>
-      For inquiries, reach out to:  
-      <strong>Saravana Kumar</strong><br>
-      📧 <a href="mailto:saravanakumar@example.com">saravanakumar@example.com</a><br>
-      ☎️ <a href="tel:+919876543210">+91 98765 43210</a>
-    </p>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Real Estate. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+const properties = [
+  {
+    type: "Land",
+    title: "DTCP Approved Land – Thekkalur",
+    location: "Thekkalur",
+    water: "Available",
+    eb: "Available",
+    approval: "DTCP Approved",
+    price: "₹30 Lakhs",
+    images: [
+      "land1.jpg",
+      "land2.jpg",
+      "land3.jpg"
+    ],
+    map: "https://maps.google.com/?q=Thekkalur"
+  }
+];
